@@ -1,0 +1,20 @@
+name: 2279 Max Bags Action
+run-name: ${{ github.actor }} 🚀
+on: [push]
+jobs:
+  Init:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x]
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: 🎉 Install modules
+        run: yarn install
+        run: yarn add mocha
+      - name: 🖥️ Running unit test on client
+        run: yarn test
+      - run: echo "🍏 This job's status is ${{ job.status }}."
+

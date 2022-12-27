@@ -1,0 +1,12 @@
+{
+	"name": "2279 Max Bags With Full Capacity Of Rocks",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "Eliyahu Koren <elik.koren@gmail.com>",
+	"license": "MIT",
+	"categories": [],
+	"scripts": {
+		"test": "mocha"
+	},
+	"devDependencies": {}
+}
