@@ -2,6 +2,10 @@
 
 [LettCode original](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/)
 
+![codewars](https://www.codewars.com/users/eliyahukoren/badges/large)
+
+![](https://img.shields.io/github/actions/workflow/status/eliyahukoren/leet-code-2279-max-bags/actions.yml?label=2279%20LeetCode&logo=logo)
+
 **Medium**
 
 You have n bags numbered from 0 to n - 1. You are given two 0-indexed integer arrays capacity and rocks. The ith bag can hold a maximum of capacity[i] rocks and currently contains rocks[i] rocks. You are also given an integer additionalRocks, the number of additional rocks you can place in any of the bags.
