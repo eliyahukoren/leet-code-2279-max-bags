@@ -7,6 +7,5 @@
 	"categories": [],
 	"scripts": {
 		"test": "mocha"
-	},
-	"devDependencies": {}
+	}
 }

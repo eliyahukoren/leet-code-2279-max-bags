@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: 🎉 Install modules
-        run: yarn install && yarn add mocha
+        run: yarn add mocha
       - name: 🖥️ Running unit test on client
         run: yarn test
       - run: echo "🍏 This job's status is ${{ job.status }}."
